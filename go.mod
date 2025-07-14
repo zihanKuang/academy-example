@@ -1,4 +1,4 @@
-module github.com/aabidsofi19/aabids-academy
+module github.com/layer5io/academy-example
 
 go 1.12
 
