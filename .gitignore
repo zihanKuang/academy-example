@@ -16,3 +16,8 @@
 
 # IDEs
 .vscode/*
+
+# hugo
+public/
+resources/
+node_modules/
