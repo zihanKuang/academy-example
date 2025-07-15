@@ -7,15 +7,14 @@ lectures: 2
 title: "Scalable Kubernetes Service"
 weight: 1
 ---
-{{< chapterstyle >}}
 
-<h2 class="chapter-sub-heading">Scalable, On-demand Kubernetes Cluster</h2>
+### **Scalable, On-demand Kubernetes Cluster**
 
 Start with a privacy-minded public cloud to host from single applications to complex architectures. Deploy a production-ready cluster in 90 seconds and manage it with a simple web portal, CLI, API or your choice of tools (Terraform).
 
-{{< image src="/images/learning-path/intro-kubernetes/exoscale-sks/c6_l1_1.png" width="30%" align="center" alt="" >}}
+![image]({{< usestatic "image-1.png" >}})
 
-<h2 class="chapter-sub-heading" >SKS Features</h2>
+### **SKS Features**
 
 **Access to all compute instance types**
 
@@ -41,6 +40,13 @@ With a free STARTER version and an affordable PRO plan, SKS provides straightfor
 
 Deploy your cluster where you need to, in the region that suits your latency, privacy or redundancy strategy.
 
-{{< image src="/images/learning-path/intro-kubernetes/exoscale-sks/c6_l2_1.png" width="100%" align="center" alt="" >}}
+![image]({{< usestatic "image-1.png" >}})
 
-{{< /chapterstyle >}}
+
+{{< card 
+title="Video: Example">}}
+<video width="100%" height="100%" controls>
+    <source src="https://exmaple.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
+{{< /card >}}
