@@ -7,9 +7,15 @@ lectures: 4
 title: "Container Benefits"
 weight: 3
 ---
+
+
+
+![image]({{< usestatic "image-1.png" >}})
+
+
 {{< chapterstyle >}}
 
-{{< org-name/custom-org-shortcode >}}
+
 
 <h2 class="chapter-sub-heading">Container Benefits</h2>
 
