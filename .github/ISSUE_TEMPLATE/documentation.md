@@ -12,7 +12,6 @@ assignees: ''
 
 
 ---
-
 #### Contributor Guide and Resources
 - 📚 [Instructions for contributing to academy-example](https://github.com/layer5io/academy-example/blob/master/CONTRIBUTING.md)
    - academy-example documentation [site](https://docs.layer5.io/cloud/academy/) and [source](https://github.com/layer5io/academy-example/)
