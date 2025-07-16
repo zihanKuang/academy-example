@@ -21,5 +21,5 @@ assignees: ''
 <!-- [Optional] Any visual diagrams of the desired user interface. -->
 
 ---
-**[Contributor Guide](https://docs.layer5.io/contributing/)**
+**[Contributor Guide](https://github.com/layer5io/academy-example/blob/master/CONTRIBUTING.md)**
 - 🎨 Wireframes and [designs for Layer5 site](https://www.figma.com/file/5ZwEkSJwUPitURD59YHMEN/Layer5-Designs) in Figma [(open invite)](https://www.figma.com/team_invite/redeem/qJy1c95qirjgWQODApilR9)
