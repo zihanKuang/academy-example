@@ -14,7 +14,7 @@
 
 #include .github/build/Makefile.show-help.mk
 
-## Install docs.layer5.io dependencies on your local machine.
+## Install academy-example dependencies on your local machine.
 ## See https://gohugo.io/categories/installation
 setup:
 	npm install
