@@ -9,7 +9,7 @@ module:
   imports:
 
     # used to source the base theme for academy.
-    - path: github.com/layer5io/hugo-academy-theme
+    - path: github.com/layer5io/academy-theme
       disable: false
 
       mounts:
