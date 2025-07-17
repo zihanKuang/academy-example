@@ -32,10 +32,10 @@ jobs:
           extended: true
 
       - name: Install dependencies
-        run: make academy-setup
+        run: make setup
 
       - name: Run production build test
-        run: make academy-prod
+        run: make build
 
       - name: Trigger Academy Update API
         id: academy
