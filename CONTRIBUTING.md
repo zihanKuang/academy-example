@@ -11,6 +11,55 @@ Not sure where to start? First, see the [newcomers welcome guide](https://docs.g
 
 Relevant coding style guidelines are the Go Code Review Comments and the Formatting and style section of Peter Bourgon's Go: Best Practices for Production Environments.
 
+## Important Information
+This repository serves as a **content-only starter template** for creating courses on the Layer5 Academy. Its primary purpose is to provide a clear example of how to structure learning paths.
+
+**Content vs. Theme**
+
+  * **This Repository (`academy-example`)**: For **content only**. Contributions should focus on improving the example itself, such as fixing typos, clarifying the structure, or making the example easier to understand.
+
+  * **Theme Repository (`layer5io/academy-theme`)**: All visual elements, layouts, CSS, and Hugo logic are managed in the central [**`layer5io/academy-theme`**](https://github.com/layer5io/academy-theme) repository.
+
+**Detailed Contribution Guide**
+
+For a complete, step-by-step guide on how to create, structure, and publish a new learning path, please refer to our official documentation:
+
+➡️ **[https://docs.layer5.io/academy/creating-learning-paths](https://docs.layer5.io/cloud/academy/creating-your-learning-path/)**
+
+## General Contribution Flow
+
+To contribute, please follow the fork-and-pull-request workflow. If you are new to this, please see the [newcomers welcome guide](https://layer5.io/community/newcomers).
+
+All pull requests should reference an open issue. Please [suspicious link removed] to describe any changes you wish to make.
+
+### Signing-off on Commits (Developer Certificate of Origin)
+
+To contribute to this project, you must agree to the Developer Certificate of Origin (DCO) for each commit you make. The DCO is a simple statement that you, as a contributor, have the legal right to make the contribution.
+
+To signify that you agree to the DCO, you simply add a `Signed-off-by` line to each of your git commit messages:
+
+```
+Signed-off-by: Jane Smith <jane.smith@example.com>
+```
+
+You can do this automatically by using the `-s` flag with `git commit`:
+
+```sh
+git commit -s -m "Your commit message"
+```
+
+-----
+
+### About Layer5
+
+**Community First**
+
+\<p\>The \<a href="[https://layer5.io/community](https://layer5.io/community)"\>Layer5 community\</a\> represents the largest collection of service mesh projects and their maintainers in the world.\</p\>
+
+**Open Source First**
+
+\<p\>At Layer5, we champion developer-defined infrastructure, giving engineers the power to reshape application delivery. We empower operators in reimagining how they manage modern infrastructure: collaboratively.\</p\>
+
 # <a name="contributing">General Contribution Flow</a>
 
 In order to contribute to Meshery, please follow the fork-and-pull request workflow described [here](./CONTRIBUTING-gitflow.md).
