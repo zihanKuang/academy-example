@@ -11,6 +11,19 @@ Not sure where to start? First, see the [newcomers welcome guide](https://docs.g
 
 Relevant coding style guidelines are the Go Code Review Comments and the Formatting and style section of Peter Bourgon's Go: Best Practices for Production Environments.
 
+## Important Information
+
+This repository serves as a content-only starter template for creating courses on the Layer5 Academy. Its primary purpose is to provide a clear example of how to structure learning paths.
+
+### Important Distinction: Content vs. Theme
+- This Repository (academy-example): This is for content only.
+- Theme Repository ([layer5io/academy-theme](https://github.com/layer5io/academy-theme/)): All visual elements, layouts, CSS, and Hugo logic are managed in the central layer5io/academy-theme repository.
+
+### Detailed Guide
+For a complete, step-by-step guide on how to create, structure, and publish a new learning path, please refer to our official documentation:
+
+➡️ [Creating Your First Learning Path](https://docs.layer5.io/cloud/academy/creating-your-learning-path/)
+
 # <a name="contributing">General Contribution Flow</a>
 
 In order to contribute to Meshery, please follow the fork-and-pull request workflow described [here](./CONTRIBUTING-gitflow.md).
