@@ -12,7 +12,3 @@ module:
     - path: github.com/layer5io/academy-theme
       disable: false
 
-      mounts:
-        - source: layouts
-          target: layouts
-          disableWatch: false

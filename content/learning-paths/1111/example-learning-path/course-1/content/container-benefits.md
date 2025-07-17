@@ -12,8 +12,13 @@ weight: 3
 
 ![image]({{< usestatic "image-1.png" >}})
 
+# **Container Benefits-1**
 
-### **Container Benefits**
+## **Container Benefits-2**
+
+### **Container Benefits-3**
+
+#### **Container Benefits-4**
 
 1. **dev and ops separation of concerns** create application container images at build/release time rather than deployment time, thereby decoupling applications from infrastructure
 
