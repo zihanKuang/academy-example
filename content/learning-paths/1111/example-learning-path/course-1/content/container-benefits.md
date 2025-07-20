@@ -1,13 +1,23 @@
 ---
+type: "chapter"
+title: "Container Benefits"
+description: "Enter a brief description of this chapter here..."
+weight: 5
+---
+
+<!-- ---
 docType: "Chapter"
 id: "Container Benefits"
-chapterTitle: "Container Benefits"
 description: ""
 lectures: 4
 title: "Container Benefits"
 weight: 3
----
+--- -->
 
+
+![](/your-org-uuid/image-1.png)
+
+![image]({{< usestatic "your-org-uuid/image-1.png" >}})
 
 
 ![image]({{< usestatic "image-1.png" >}})

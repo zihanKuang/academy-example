@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"name": "academy-example",
+			"path": "../../../../../.."
+		},
+		{
+			"name": "hugo-academy-theme",
+			"path": "../../../../../../../hugo-academy-theme"
+		},
+		{
+			"name": "layer5-docs",
+			"path": "../../../../../../../layer5-docs"
+		}
+	],
+	"settings": {}
+}

@@ -6,6 +6,7 @@ description: ""
 lectures: 4
 title: "Experiences we want to change!"
 weight: 1
+tags: ["kubernetes", "containers", "introduction"]
 ---
 
 ### **Why Containers?**

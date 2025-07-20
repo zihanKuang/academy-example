@@ -12,5 +12,7 @@ cascade: # tells hugo to set this as default type for all children content in th
 <!-- This page is only used in local dev setup , this wont be used or rendered in production -->
 
 {{% pageinfo %}}
-
+this is learning path
 {{% /pageinfo %}}
+
+![test image]({{< usestatic "image-1.jpg" >}})
