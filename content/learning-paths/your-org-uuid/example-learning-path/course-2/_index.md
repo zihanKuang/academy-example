@@ -12,4 +12,6 @@ toc:
     "scalable-kubernetes-service",
     "packaging-pricing",
   ]
+tags: [sks]
+categories: [advance]
 ---

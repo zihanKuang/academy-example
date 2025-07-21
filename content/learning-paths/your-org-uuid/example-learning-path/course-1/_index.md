@@ -14,4 +14,6 @@ toc:
     "container-benefits",
     "history-of-application-deployments",
   ]
+tags: [conatiners]
+categories: [intermediate]
 ---
