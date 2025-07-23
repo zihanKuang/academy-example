@@ -10,7 +10,6 @@ tags: [conatiners]
 categories: [intermediate]
 ---
 
-{{< your-org-uuid/custom-org-shortcode >}}
 
 
 ![image]({{< usestatic "image-1.png" >}})
