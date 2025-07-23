@@ -11,7 +11,6 @@ other = "Read more"
 
 [ui_search]
 other = "Search"
-ui_search = "search"
 
 # Used in sentences such as "Posted in News"
 [ui_in]
