@@ -12,26 +12,36 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+include .github/build/Makefile.core.mk
 include .github/build/Makefile.show-help.mk
 
-## Install academy-example dependencies on your local machine.
-## See https://gohugo.io/categories/installation
-setup:
-	npm install
+#----------------------------------------------------------------------------
+# Academy
+# ---------------------------------------------------------------------------
+.PHONY: setup build site clean check-go theme-update
 
-## Run on your local machine with draft and future content enabled.
+## ------------------------------------------------------------
+----LOCAL_BUILDS: Show help for available targets
+	
+## Local: Install site dependencies
+setup:
+	 npm i
+
+## Local: Build site for local consumption
+build:
+	hugo build
+
+## Local: Build and run site locally with draft and future content enabled.
 site: check-go
 	hugo server -D -F
 	
-build:
-	hugo
-
 ## Empty build cache and run on your local machine.
 clean: 
 	hugo --cleanDestinationDir
 	make site
 
-.PHONY: setup build site clean site-fast check-go academy-update
+## ------------------------------------------------------------
+----MAINTENANCE: Show help for available targets
 
 check-go:
 	@echo "Checking if Go is installed..."
@@ -39,6 +49,6 @@ check-go:
 	@echo "Go is installed."
 
 ## Update the academy-theme package to latest version
-academy-update:
+theme-update:
+	echo "Updating to latest academy-theme..." && \
 	hugo mod get -u
-
