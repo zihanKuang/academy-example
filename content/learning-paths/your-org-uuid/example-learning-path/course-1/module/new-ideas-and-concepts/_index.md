@@ -1,10 +1,9 @@
 ---
+type: "page"
 id: "New Ideas & Concepts"
 description: "In this section, we explore the innovative concepts that have emerged in the world of containers, drawing parallels with the shipping industry to understand how these ideas can transform IT operations."
 title: "New Ideas & Concepts"
 weight: 2
-tags: [containers]
-categories: [intermediate]
 ---
 
 ### **New Ideas & Concepts**

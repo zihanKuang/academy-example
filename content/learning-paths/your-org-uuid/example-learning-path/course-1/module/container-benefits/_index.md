@@ -1,10 +1,9 @@
 ---
+type: "page"
 id: "Container Benefits"
 description: "In this section, we explore the benefits of container technology, highlighting how it enhances development, testing, and deployment processes in modern IT environments."
 title: "Container Benefits"
 weight: 3
-tags: [containers]
-categories: [intermediate]
 ---
 
 

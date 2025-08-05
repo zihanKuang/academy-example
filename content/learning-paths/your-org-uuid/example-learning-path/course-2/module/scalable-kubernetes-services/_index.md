@@ -1,11 +1,9 @@
 ---
+type: "page"
 id: "Scalable Kubernetes Service"
 description: "In this section, we explore the features and benefits of Scalable Kubernetes Services (SKS), focusing on how they can enhance the deployment and management of containerized applications in modern IT environments."
-lectures: 2
 title: "Scalable Kubernetes Service"
 weight: 1
-tags: [sks]
-categories: [advance]
 ---
 
 ### **Scalable, On-demand Kubernetes Cluster**

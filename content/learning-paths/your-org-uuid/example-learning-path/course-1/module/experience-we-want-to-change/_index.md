@@ -1,10 +1,9 @@
 ---
+type: "page"
 id: "Experiences we want to change!"
 description: "In this section, we introduce the challenges faced in traditional IT operations and set the stage for the transformative potential of container technology."
 title: "Experiences we want to change!"
 weight: 1
-tags: [containers]
-categories: [intermediate]
 ---
 
 ### **Why Containers?**

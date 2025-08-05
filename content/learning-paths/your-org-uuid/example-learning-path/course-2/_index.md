@@ -5,6 +5,6 @@ description: "Learn about Exoscale's Kubernetes Service (SKS) and how it provide
 weight: 2
 banner: "images/image-1.png"
 tags: [sks]
-categories: [advance]
-level: [intermediate]
+categories: "advanced"
+level: "intermediate"
 ---

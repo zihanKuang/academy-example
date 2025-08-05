@@ -1,10 +1,9 @@
 ---
+type: "page"
 id: "History of Application Deployments"
 description: "This section provides an overview of the evolution of application deployment strategies, from traditional methods to modern container-based approaches."
 title: "History of Application Deployments"
 weight: 4
-tags: [containers , deployments]
-categories: [intermediate]
 ---
 
 ### **History of Application Deployments**
