@@ -18,8 +18,6 @@ title: Academy
 ### Welcome to dev environment for your Academy
 > This is just a development page that shows during the build process. The development process is extraordinarily simple - you can start building it out bit by bit or dive right in.   
 
-
-
 {{% /blocks/lead %}} 
 
 #### What Your Academy Will Look Like
