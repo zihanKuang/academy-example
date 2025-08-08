@@ -3,7 +3,7 @@ title: "Module Quiz"
 passing_percentage: 70
 questions:
   - id: "q1"
-    text: "Which Layer5 project is used for visual design in Kubernetes?"
+    text: "Which Layer5 project is used for visual design in Kubernetes and cloud native infrastructure?"
     type: "single-answer"
     marks: 2
     options:
@@ -36,7 +36,6 @@ questions:
     text: "Which tool manages Kubernetes namespace labeling?" 
     type: "short_answer" 
     marks: 2
-    correct_answer: "kubectl" 
-layout: "test"
+    correct_answer: "kubectl"
 type: "test"
 ---
