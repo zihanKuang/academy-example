@@ -1,19 +1,42 @@
 ---
-title: "Quiz"
+title: "Module Quiz"
 passing_percentage: 70
 questions:
   - id: "q1"
-    text: "Terms and Conditions and any Order shall be governed by the laws of: "
+    text: "Which Layer5 project provides visual design capabilities for Kubernetes and service meshes?"
     type: "single-answer"
     marks: 2
     options:
       - id: "a"
-        text: "Austria"
+        text: "Meshery"
       - id: "b"
-        text: "Germany"
-      - id: "c"
-        text: "Switzerland"
+        text: "Kanvas"
         is_correct: true
+      - id: "c"
+        text: "Istio"
+      - id: "d"
+        text: "Docker"
+  - id: "q2"
+    text: "Which of the following are architectural components of Meshery?"
+    type: "multiple-answers"
+    marks: 2
+    options:
+      - id: "a"
+        text: "MeshSync"
+        is_correct: true
+      - id: "b"
+        text: "Broker"
+        is_correct: true
+      - id: "c"
+        text: "Operator"
+        is_correct: true
+      - id: "d"
+        text: "Docker Engine"
+  - id: "q3"
+    text: "Which tool manages Kubernetes namespace labeling?" 
+    type: "short_answer" 
+    marks: 2
+    correct_answer: "kubectl" 
 layout: "test"
 type: "test"
 ---
