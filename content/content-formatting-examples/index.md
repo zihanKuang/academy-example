@@ -133,7 +133,7 @@ The rendered output is shown below:
 {{< alert type="danger" title="Danger" >}}This is a danger alert.{{< /alert >}}
 {{< alert type="warning" title="Warning" >}}This is a warning alert.{{< /alert >}}
 
-### TabPane
+### TabPanel
 
 {{< tabpane text=true >}}
 
