@@ -5,9 +5,9 @@ description: A collection of examples for formatting content, from basic Markdow
 draft: true
 ---
 
-Welcome! This page showcases our Hugo shortcodes and images and Markdown.
+Welcome! This page showcases examples of Hugo shortcodes, images, and Markdown.
 
-{{< alert title="Note" title="Example Page: Not for Production" >}}
+{{< alert type="note" title="Example Page: Not for Production" >}}
 This page will not be published in the [production version](https://cloud.layer5.io/academy/) of the site. It is only visible for local preview and serves as a reference. You can safely delete this page from your repository at any time.
 {{< /alert >}}
 
@@ -89,8 +89,8 @@ Inline code inside table cells:
 
 | Language    | Code               |
 |-------------|--------------------|
-| Javascript  | `var foo = "bar";` |
-| Ruby        | `foo = "bar"{`     |
+| JavaScript  | `var foo = "bar";` |
+| Ruby        | `foo = "bar"`      |
 
 ----------------
 
@@ -115,7 +115,7 @@ _The photo above of the Spruce Picea abies shoot with foliage buds: Bjørn Erik 
 */>}}
 ```
 
-效果如下面：
+The rendered output is shown below:
 
 <!-- Learn more at https://docs.layer5.io/kanvas/designer/export-designs/#exporting-as-embedding -->
 {{< meshery-design-embed
@@ -123,30 +123,43 @@ _The photo above of the Spruce Picea abies shoot with foliage buds: Bjørn Erik 
   src="./embedded-design-deploy-meshery-using-meshery.js"
 >}}
 
+> [Learn more](https://docs.layer5.io/kanvas/designer/embedding-designs/) about embedded designs.
+
 ### Alerts
 
-{{< alert >}}This is an alert.{{< /alert >}}
-{{< alert title="Note" >}}This is an alert with a title.{{< /alert >}}
-{{< alert title="Note" >}}This is an alert with a title and **Markdown**.{{< /alert >}}
-{{< alert type="success" title="Successful Note">}}This is a successful alert.{{< /alert >}}
-{{< alert type="warning" >}}This is a warning.{{< /alert >}}
-{{< alert type="warning" title="Warning Title" >}}This is a warning with a title.{{< /alert >}}
+{{< alert title="Note" >}}A plain alert with a title.{{< /alert >}}
+{{< alert type="note" title="Note" >}}This alert supports a title and **Markdown**.{{< /alert >}}
+{{< alert type="info" title="Info" >}}This is an informational alert.{{< /alert >}}
+{{< alert type="danger" title="Danger" >}}This is a danger alert.{{< /alert >}}
+{{< alert type="warning" title="Warning" >}}This is a warning alert.{{< /alert >}}
 
 ### TabPane
 
 {{< tabpane text=true >}}
 
-{{% tab header="Full-sized Logo Example" lang="en" active="true" %}}
+{{% tab header="Example 1" lang="en" active="true" %}}
 
-When users register through the [Open Organization Invitation Link](https://docs.layer5.io/cloud/identity/organizations/org-management/#using-the-open-organization-invitation-link), they will see the full-sized logo.
+Tabs help organize related content.
+
+- Concise explanation
+- Another brief point
 
 {{< /tab >}}
 
-{{% tab header="Logo Mark Example" lang="en" %}}
+{{% tab header="Example 2" lang="en" %}}
 
-When logging into Layer5 Cloud on mobile devices, the small logo mark will be displayed.
+Tabs help organize related content.
 
-<img src="./images/example.png" alt="Logo Mark" style="width:50%; height:auto;" />
+- Concise explanation
+- Another brief point
+
+{{< /tab >}}
+
+{{% tab header="Example 3" lang="en" %}}
+
+Here is an example image:
+
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Picea_abies_shoot_with_buds%2C_Sogndal%2C_Norway.jpg/1024px-Picea_abies_shoot_with_buds%2C_Sogndal%2C_Norway.jpg)
 
 {{< /tab >}}
 
@@ -155,6 +168,7 @@ When logging into Layer5 Cloud on mobile devices, the small logo mark will be di
 ### Collapsible
 
 {{< details summary="This is a collapsible title" >}}
+
 This is the collapsed content.
 
 It can be a list:
